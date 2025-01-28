@@ -50,7 +50,7 @@ async def update_user(user_id: str):
 
 @router.delete('/{user_id}')
 async def delete_user(user_id: str):
-    """
+    """Delete user by id
 
     :param user_id:
     :return:
